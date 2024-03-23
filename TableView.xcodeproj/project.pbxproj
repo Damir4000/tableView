@@ -16,6 +16,8 @@
 		F50BF79A2BA9EC1300EA8361 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF7992BA9EC1300EA8361 /* TableViewTests.swift */; };
 		F50BF7A42BA9EC1300EA8361 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF7A32BA9EC1300EA8361 /* TableViewUITests.swift */; };
 		F50BF7A62BA9EC1300EA8361 /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF7A52BA9EC1300EA8361 /* TableViewUITestsLaunchTests.swift */; };
+		F50BF7B32BA9EEDF00EA8361 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF7B22BA9EEDF00EA8361 /* TableViewController.swift */; };
+		F50BF7B52BAB514D00EA8361 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BF7B42BAB514D00EA8361 /* Cars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F50BF79F2BA9EC1300EA8361 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50BF7A32BA9EC1300EA8361 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		F50BF7A52BA9EC1300EA8361 /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F50BF7B22BA9EEDF00EA8361 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F50BF7B42BAB514D00EA8361 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				F50BF7822BA9EC1100EA8361 /* AppDelegate.swift */,
 				F50BF7842BA9EC1100EA8361 /* SceneDelegate.swift */,
+				F50BF7B42BAB514D00EA8361 /* Cars.swift */,
 				F50BF7862BA9EC1100EA8361 /* ViewController.swift */,
+				F50BF7B22BA9EEDF00EA8361 /* TableViewController.swift */,
 				F50BF7882BA9EC1100EA8361 /* Main.storyboard */,
 				F50BF78B2BA9EC1200EA8361 /* Assets.xcassets */,
 				F50BF78D2BA9EC1200EA8361 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				F50BF7872BA9EC1100EA8361 /* ViewController.swift in Sources */,
 				F50BF7832BA9EC1100EA8361 /* AppDelegate.swift in Sources */,
+				F50BF7B52BAB514D00EA8361 /* Cars.swift in Sources */,
 				F50BF7852BA9EC1100EA8361 /* SceneDelegate.swift in Sources */,
+				F50BF7B32BA9EEDF00EA8361 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +457,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +465,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.Damir.TableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,9 +497,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.Damir.TableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
